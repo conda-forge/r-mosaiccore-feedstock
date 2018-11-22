@@ -14,9 +14,9 @@ source:
   sha256: 5f1c5e134e70c57ae26700cb3a1943825036e3194623ca2e0b1c326ae0499cce
 
 build:
+  noarch: generic
   merge_build_host: True  # [win]
-  number: 0
-  skip: true  # [win32]
+  number: 1000
   rpaths:
     - lib/R/lib/
     - lib/
@@ -49,8 +49,7 @@ about:
   license: GPL (>= 2)
   summary: Common utilities used in other MOSAIC-family packages are  collected here.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-3'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
   recipe-maintainers:
