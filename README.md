@@ -14,9 +14,8 @@ Summary: Common utilities used in other MOSAIC-family packages are  collected he
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-mosaiccore-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-mosaiccore-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-mosaiccore-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-mosaiccore-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-mosaiccore-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-mosaiccore-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-mosaiccore-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-mosaiccore-feedstock)
 
 Current release info
 ====================
