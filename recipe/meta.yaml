@@ -1,4 +1,4 @@
-{% set version = '0.6.0' %}
+{% set version = "0.8.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,12 +11,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mosaicCore_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mosaicCore/mosaicCore_{{ version }}.tar.gz
-  sha256: 5f1c5e134e70c57ae26700cb3a1943825036e3194623ca2e0b1c326ae0499cce
+  sha256: 12675850fd03bf1cf14df4e63b080daa5827754bbaeab7429d7c341443376a03
 
 build:
   noarch: generic
-  merge_build_host: True  # [win]
-  number: 1002
+  merge_build_host: true  # [win]
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -49,7 +49,7 @@ about:
   license: GPL (>= 2)
   summary: Common utilities used in other MOSAIC-family packages are  collected here.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
+  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
