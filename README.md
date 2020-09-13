@@ -5,7 +5,7 @@ Home: https://github.com/ProjectMOSAIC/mosaicCore
 
 Package license: GPL (>= 2)
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Common utilities used in other MOSAIC-family packages are  collected here.
 
