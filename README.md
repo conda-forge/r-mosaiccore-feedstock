@@ -1,11 +1,11 @@
-About r-mosaiccore
-==================
+About r-mosaiccore-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mosaiccore-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ProjectMOSAIC/mosaicCore
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mosaiccore-feedstock/blob/main/LICENSE.txt)
 
 Summary: Common utilities used in other MOSAIC-family packages are  collected here.
 
